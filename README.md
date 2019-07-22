@@ -1,7 +1,7 @@
 # trafficsplit
 Use Buoyant's Booksapp to demo Traffic Split
 
-1. Install the MySQL backend
+1. Install the MySQL backend (the default Booksapp uses SQLite which will eventually fail if there are two authors services)
 
     ```bash
     kubectl apply -f mysql-backend.yml
